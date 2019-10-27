@@ -128,8 +128,12 @@ public class MainActivity extends AppCompatActivity {
         DatabaseReference databaseReference = firebaseDatabase.getReference("/vsgaUser/"+uid);
         // declare Pojo class
         User user;
-        // assign value to pojo
-        user = new User("username", "email","password");
+        // assign value to
+        user = new User(
+                "username",
+                ""+edtEmail.getText().toString(),
+                ""+edtPass.getText().toString()
+        );
 
 
         databaseReference.setValue(user)
