@@ -1,0 +1,138 @@
+{
+  "project_info": {
+    "project_number": "163178024174",
+    "firebase_url": "https://scodeshop.firebaseio.com",
+    "project_id": "scodeshop",
+    "storage_bucket": "scodeshop.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:163178024174:android:6c8c01dc349c1e3324f7ff",
+        "android_client_info": {
+          "package_name": "com.scodeid.firebaseauth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "163178024174-lo0l56kauq1180h1u09gost0rfa7ek2u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.scodeid.firebaseauth",
+            "certificate_hash": "fd163cf112b82d9442721f72f778aa4d20c6d2fd"
+          }
+        },
+        {
+          "client_id": "163178024174-q21ms04n8nr0co128nj4vhopid5iooas.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCOxqXWFUO_gTKqU0pBL1_Kf_3nlx5gPcU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "163178024174-q21ms04n8nr0co128nj4vhopid5iooas.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:163178024174:android:4c7fc7a5bb311204",
+        "android_client_info": {
+          "package_name": "id.scode.rent.rentpay"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "163178024174-fdjrtum6vms1t5rk9uipgja1kslrdjf9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "id.scode.rent.rentpay",
+            "certificate_hash": "89de9f7df1d8e481ed71c9dbc1e29d0ea05b3a27"
+          }
+        },
+        {
+          "client_id": "163178024174-n98hcjd2c7u0ctkjmrirt05eto0opoiv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "id.scode.rent.rentpay",
+            "certificate_hash": "4ad0650fff93887bd0bce51cf82911529c7dab78"
+          }
+        },
+        {
+          "client_id": "163178024174-q21ms04n8nr0co128nj4vhopid5iooas.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCOxqXWFUO_gTKqU0pBL1_Kf_3nlx5gPcU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "163178024174-q21ms04n8nr0co128nj4vhopid5iooas.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:163178024174:android:0cef7275f70cee80",
+        "android_client_info": {
+          "package_name": "id.scode.scodeshop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "163178024174-cr4s5i6j58terqhpbkfj647ak8hn1ic7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "id.scode.scodeshop",
+            "certificate_hash": "4ad0650fff93887bd0bce51cf82911529c7dab78"
+          }
+        },
+        {
+          "client_id": "163178024174-cc6p5s3q6ljf736l492s5r8h0pv2ptqb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "id.scode.scodeshop",
+            "certificate_hash": "be7b23c3890ca8ed6456d7ed83687cb6ae58d6ba"
+          }
+        },
+        {
+          "client_id": "163178024174-q21ms04n8nr0co128nj4vhopid5iooas.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCOxqXWFUO_gTKqU0pBL1_Kf_3nlx5gPcU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "163178024174-q21ms04n8nr0co128nj4vhopid5iooas.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
