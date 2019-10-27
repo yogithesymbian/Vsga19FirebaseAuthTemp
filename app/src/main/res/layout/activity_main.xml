@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -7,6 +8,40 @@
     android:layout_margin="16dp"
     android:orientation="vertical"
     tools:context=".MainActivity">
+
+<!--    don't do this , this just for bad practice
+nested layout -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|center_vertical|center_horizontal">
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_select_photo"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="32dp"
+            app:icon="@drawable/ic_add_a_photo_black_24dp"
+            app:iconSize="150dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:targetApi="lollipop" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/select_circle_image"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            app:layout_constraintBottom_toBottomOf="@+id/btn_select_photo"
+            app:layout_constraintEnd_toEndOf="@+id/btn_select_photo"
+            app:layout_constraintStart_toStartOf="@+id/btn_select_photo"
+            app:layout_constraintTop_toTopOf="@+id/btn_select_photo" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
 
     <com.google.android.material.textfield.TextInputLayout
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
